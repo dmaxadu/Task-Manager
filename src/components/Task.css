@@ -9,11 +9,12 @@
     justify-content: space-between;
     color: #eee;
     align-items: center;
-    cursor: pointer;
+    
 }
 
 .task-title{
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .buttons-container{
