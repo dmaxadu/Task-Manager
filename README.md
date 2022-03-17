@@ -14,4 +14,4 @@ Simple page where the user can enter tasks and mark as completed by clicking on 
 
 # ✅ Status of the Project
 
-<h4 align="center">🚧 Em construção...  🚧</h4>
+<h4 align="center">🚧 Work in progress...  🚧</h4>
