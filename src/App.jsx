@@ -55,9 +55,6 @@ export default () => {
 
     return (
       <>
-        {/* <div className="date">
-          <Date />
-        </div> */}
         <div className="container">
           <Header />
           <AddTask handleTaskAddition = {handleTaskAddition} />

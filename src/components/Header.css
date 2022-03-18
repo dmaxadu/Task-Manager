@@ -3,4 +3,10 @@
 h1{
     font-family: 'Roboto', sans-serif;
     color: #eee;
+    margin-bottom: -15px;
+}
+.header-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }

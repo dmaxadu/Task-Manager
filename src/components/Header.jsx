@@ -1,9 +1,15 @@
 import React from 'react';
 import './Header.css'
+import Date from './Date';
 
 const Header = () => {
     return ( 
-        <h1>Minhas Tarefas</h1>
+        <>
+            <div className='header-date'>
+                <h1>Minhas Tarefas</h1>
+                {<Date />}
+            </div>
+        </>
      );
 }
  

@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-h2{
+.date-hour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: bold;
     color: #eee;
     text-align: center;
+    margin-bottom: -10px;
 }
