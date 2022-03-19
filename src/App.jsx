@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {v4 as uuidv4} from 'uuid'
-import Date from './components/Date';
+import DateHour from './components/Date';
 import Header from './components/Header';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
@@ -55,6 +55,7 @@ export default () => {
 
     return (
       <>
+        <DateHour />
         <div className="container">
           <Header />
           <AddTask handleTaskAddition = {handleTaskAddition} />
